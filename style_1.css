@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat");
+
+.Container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+h1{
+  font-size: 38px;
+  background-color: black;
+  animation: fadeIn 5s 2s  infinite ;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: black;
+}
+a{
+  text-decoration: none;
+}
+h3{
+  font-size: 40px;
+  color: white;
+  margin: 30px;
+}
+@keyframes fadeIn {
+  0% {
+    font-size: 30px;
+  }
+  20%{
+    font-size: 25px;
+  }
+  30%{
+    font-size: 30px;
+  }
+  40%{
+    font-size: 25px;
+  }
+  50%{
+    font-size: 30px;
+  }
+  60%{
+    font-size: 35px;
+  }
+  70%{
+    font-size: 30px;
+  }
+  80%{
+    font-size: 45px;
+  }
+  90%{
+    font-size: 40px;
+  }
+  100%{
+    font-size: 55px;
+  }
+}
+ 
+.Picture {  
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px solid #fff;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(107, 243, 3, 0.3);
+  transform: translate(-50%, -50%);
+  user-select: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.4s;
+  animation: move 4s 1s linear infinite;
+}
+@keyframes move {
+ 0%{
+  border-color: #d4f3b1;
+ }
+ 10%{
+  border-color: #a0f47c;
+ }
+ 20%{
+  border-color: #f4e87b;
+ }
+ 30%{
+  border-color: #f4da8b;
+ }
+ 40%{
+  border-color: #8bf49d;
+ }
+ 100%{
+  border-color: #a1fd98;
+ }
+}
+.Picture-img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+  border-radius: 20px 20px 0 0;
+}
+
+.Picture-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 70px;
+  padding: 12px 24px;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color:dimgray;
+  border-radius: 1px 2px 10px 10px;
+  color: #baea8b;
+}
+.Network {
+  display: inline-block;
+  padding: 0 5px;
+}
+.Network-video {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.Network img {
+  width: 1.5rem;
+  aspect-ratio: 1 / 1;
+  vertical-align: middle;
+}
+
+.Network-video img {
+  width: 1.5rem;
+  aspect-ratio: 1 / 1;
+  vertical-align: middle;
+}
+/* --------------------- */
+/* Other styles          */
+/* --------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Caveat', serif;
+  overflow: hidden;
+  background-color: black;
+  min-height: fit-content;
+} 
+#pic_1{
+  height: 320px;
+  width: 300px;
+  margin-top: 1px;
+}
