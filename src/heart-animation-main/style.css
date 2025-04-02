@@ -47,14 +47,11 @@ h2 {
 	font-weight: 900;
 	animation: love 2s 4s linear infinite;
 }
-h2:hover{
-	color: rgb(166, 200, 115);
-}
+
 
 h1,
 h2 {
 	color: var(--white);
-	
 }
 
 
@@ -111,17 +108,17 @@ h2 span {
 
 @keyframes love {
 	0% {
-		font-size: 300px;
+		font-size: 200px;
 		color: #e80202;
 	}
 
 	20% {
-		font-size: 250px;
+		font-size: 150px;
 		color: greenyellow;
 	}
 
 	30% {
-		font-size: 200px;
+		font-size: 100px;
 		color: pink;
 	}
 
@@ -141,17 +138,17 @@ h2 span {
 	}
 
 	70% {
-		font-size: 300px;
+		font-size: 200px;
 		color: #e80202;
 	}
 
 	80% {
-		font-size: 250px;
+		font-size: 150px;
 		color: greenyellow;
 	}
 
 	90% {
-		font-size: 200px;
+		font-size: 100px;
 		color: pink;
 	}
 

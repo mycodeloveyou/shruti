@@ -10,6 +10,9 @@ body {
   touch-action: none; 
 }
 
+a{
+  font-size: 70px;
+}
 body {
   overflow: hidden;
   display: -webkit-box;
