@@ -19,6 +19,7 @@ body {
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
+  transition: 1.3s;
 /*  min-width: 800px; */
   
   transform: rotateZ(-5deg);
@@ -60,6 +61,7 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.6;
+  transition: 1.3s;
 }
 
 p {
@@ -68,6 +70,6 @@ p {
   color: rgb(0,0,100);
   opacity: 0.75;
   user-select: none;
-  
+  transform: 0.1s;
   filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
